@@ -76,3 +76,32 @@
 .spacer-md {
   height: 80px;
 }
+
+.sale-card {
+  width: 300px;
+  border: 1px solid white;
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 24px;
+}
+
+.sale-card img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.sale-card h2 {
+  margin: 0;
+  text-align: left;
+}
+
+.sale-card h3 {
+  margin: 0;
+  text-align: left;
+}
+
+.sale-card .price {
+  text-align: right;
+  font-size: 2em;
+}
